@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منصة القضايا</title>
+</head>
+<body>
+  <h1>مرحباً بك في منصة إدارة القضايا</h1>
+  <a href="login.html">تسجيل الدخول</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+</head>
+<body>
+  <h2>تسجيل الدخول</h2>
+  <form action="dashboard.html" method="post">
+    <label for="username">اسم المستخدم:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">كلمة المرور:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <button type="submit">دخول</button>
+  </form>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة التحكم</title>
+</head>
+<body>
+  <h1>لوحة التحكم</h1>
+  <p>مرحباً بك، لقد تم تسجيل الدخول بنجاح!</p>
+  <a href="index.html">الرجوع للرئيسية</a>
+</body>
+</html>
